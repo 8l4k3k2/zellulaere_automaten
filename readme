@@ -1,0 +1,37 @@
+Start the app by executing cell_automaton.py
+This is a app for a cellular automaton. The purpose is to create an initial configuration and watching it evolve.
+Its programmed to display "Conway's Game of Life" with its different rulesets as well as the "Turing Ant" also known as "Langton's Ant"
+
+To explain what "Conway's Way of Life is" here en excerpt from https://en.wikipedia.org/wiki/Conway's_Game_of_Life:
+
+"The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in
+one of two possible states, alive or dead, (or populated and unpopulated, respectively). Every cell interacts with its
+eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time,
+the following transitions occur:
+
+    1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
+    2. Any live cell with two or three live neighbours lives on to the next generation.
+    3. Any live cell with more than three live neighbours dies, as if by overpopulation.
+    4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction."
+
+This is the 2G3 rule. There are a couple of different rulesets that determine when a cell lives and dies, that can be
+selected by clicking on "Rules"
+
+To start the simulation click "Start"
+To create a new initial configuration click on "Set New"
+Now the size of the field can be set by entering a number and clicking on "Set Size" and the configuration in the field can be set by clicking in a cell of the field.
+Clicking again on "Set new" locks in the field configuration.
+
+How does "Langtons Ant" work:
+
+"Squares on a plane are colored variously either black or white. We arbitrarily identify one square as the "ant".
+The ant can travel in any of the four cardinal directions at each step it takes. The "ant" moves according
+to the rules below:
+
+    At a white square, turn 90° clockwise, flip the color of the square, move forward one unit
+    At a black square, turn 90° counter-clockwise, flip the color of the square, move forward one unit"
+
+Source: https://en.wikipedia.org/wiki/Langton's_ant
+
+To display the "Langton Ant" click on "turing Ant" while the Edit-Mode is set to Off.
+For the turing ant set the size to a minimum of 100. Click Start to start the turing ant simulation.
