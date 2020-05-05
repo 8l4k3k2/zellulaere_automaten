@@ -35,3 +35,6 @@ Source: https://en.wikipedia.org/wiki/Langton's_ant
 
 To display the "Langton Ant" click on "turing Ant" while the Edit-Mode is set to Off.
 For the turing ant set the size to a minimum of 100. Click Start to start the turing ant simulation.
+
+Prerequisites:
+PyQt5
